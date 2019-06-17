@@ -38,7 +38,8 @@ RUN sudo npm install -g sass \
     && sudo npm install -g typescript \
     && sudo npm install -g @angular/cli \
     && sudo npm install -g ionic cordova \
-    && sudo npm install -g firebase-tools
+    && sudo npm install -g firebase-tools \
+    && sudo npm install -g http-server
 
 USER developer
 WORKDIR /home/developer
